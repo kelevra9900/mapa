@@ -9,7 +9,8 @@ const initialPoint = {
 };
 
 const config = {
-  headers: { Authorization: `Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJnb256YWxvLmNhc3RpbGxvQHBhaW5hbmkubXgiLCJyb2xlcyI6IlZhbGlkYWRvcixBbmFsaXN0YSxDQUMsQWRtaW5pc3RyYWRvciJ9.f_bKUhV1-_EEVMBIw19EbqPxUGWdxkDV8nC69QmPXbkXbrbPvDNPmvIIsqdMM0K4MlTaufAJC6oUTsEVKO9QFg` }
+  // token authorization to admin user
+  headers: { Authorization: `TOKEN` }
 };
 
 export const MapaPage = () => {
